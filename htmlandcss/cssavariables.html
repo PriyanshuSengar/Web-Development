@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variables / custom properties</title>
+    <style> 
+    :root{
+        /* --box-color:blue; */
+        --primary-color:grey;
+        --danger-color:black;
+        /* all these are the type of variables  for example-   --primary-color,--danger-color */
+        --maxw:333px;
+    }
+    .box{
+        /* --box-color: violet; */
+        /* --box-color it is used to change color on multiple places in one time but it is a local varibale out the box  it is useless */
+        width: 200px;
+        height: 200px;
+        background-color: var(--primary-color);
+        border: 2px solid var( --danger-color);
+        box-shadow: 3px 3px var(--box-color);
+        margin: 2px 5px;
+    }
+.container{
+    max-width: var(--maxw);
+    margin: auto;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: var(--danger-color);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

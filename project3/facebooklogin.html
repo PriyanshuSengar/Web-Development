@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Login</title>
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: rgb(188, 188, 197);
+    }
+
+    .container {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border: 2px solid black;
+      /* margin-bottom: 10%; */
+      height: 600px;
+      width: 500px;
+      border-radius: 15px;
+      box-shadow: 2px 2px 30px 10px;
+
+
+
+    }
+
+    .sengar {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    #naveen {
+
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      color: rgba(58, 58, 237, 0.847);
+      font-size: 40px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      /* font-weight: 200; */
+      margin-top: -8px;
+    }
+
+    .same {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin: -25px;
+    }
+
+    input {
+
+      margin-inline: 10px;
+      margin-block: -5px;
+      border: 2px solid black;
+      border-radius: 5px;
+      height: 25px;
+      margin-bottom: 25px;
+    }
+
+    .eicher {
+      border: 2px solid black;
+      border-radius: 5px;
+      margin: 20px;
+      height: 35px;
+      width: 100px;
+      margin-left: 10px;
+    }
+
+    .jai {
+      width: 42%;
+      height: 35px;
+    }
+
+    .ho {
+      width: 92%;
+      height: 35px;
+    }
+
+    .same {
+      margin-top: -10px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    #love {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-left: 10px;
+    }
+
+    .gender {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    #luckey {
+      width: 50%;
+      margin-left: 25%;
+      height: 40px;
+      border-radius: 10px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 22px;
+      color: white;
+      background-color: rgb(27, 190, 27);
+    }
+
+    #an {
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      color: rgb(81, 81, 198);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .jai:hover {
+      border: 2px solid rgb(193, 59, 59);
+      cursor: pointer;
+    }
+
+    .ho:hover {
+      border: 2px solid rgb(193, 59, 59);
+      cursor: pointer;
+    }
+
+    .eicher:hover {
+      border: 2px solid rgb(193, 59, 59);
+      cursor: pointer;
+    }
+
+    .gender:hover {
+      color: blue;
+      cursor: pointer;
+    }
+
+    #luckey:hover {
+      cursor: pointer;
+      background-color: rgb(28, 222, 28);
+    }
+
+    #an:hover {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sengar">
+    <h1 id="naveen"><strong>Facebook</strong></h1>
+    <div class="container">
+      <h1 class="same">Create a new account</h1>
+      <h4 class="same">it's quick and easy.</h4>
+      <div class="button">
+        <input type="text" placeholder="First name" class="jai">
+        <input type="text" placeholder="Surname" class="jai"><br>
+        <input type="number" placeholder="Mobile or email address" class="ho">
+        <input type="password" placeholder="New password" class="ho">
+        <!-- <h5>Date of Birth</h5> --> <br>
+        <label for="" id="love">Date of Birth ?</label> <br>
+        <select name="Date of birth" id="date" class="eicher">
+          <option value="date">1</option>
+          <option value="date">2</option>
+          <option value="date">3</option>
+          <option value="date">4</option>
+          <option value="date">5</option>
+        </select>
+        <select name="Enter month" id="month" class="eicher">
+          <option value="">Jan</option>
+          <option value="">Feb</option>
+          <option value="">Mar</option>
+          <option value="">Apr</option>
+        </select>
+        <select name="" id="year" class="eicher">
+          <option value="car">2001</option>
+          <option value="car">2002</option>
+          <option value="car">2003</option>
+          <option value="car">2004</option>
+        </select><br>
+        <div class="gender"> Gender: Male <input type="radio" name="gender" class="tvs" id="copy"> Female <input
+            type="radio" name="gender" class="tvs"> Custom <input type="radio" name="gender" class="tvs"></div>
+      </div>
+
+      <button id="luckey">Sign Up</button>
+      <h2 id="an">Already have an Account ? </h2>
+    </div>
+  </div>
+</body>
+
+</html>

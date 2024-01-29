@@ -1,0 +1,30 @@
+#a{
+    border: 2px dashed green;
+  font-size: 50px; 
+}
+#b{
+    border: 2px dotted green;
+  font-size: 50px; 
+}
+#c{
+    border: 2px double green;
+  font-size: 50px; 
+  border: double;
+}
+#d{
+    border: 2px double red;
+  font-size: 50px; 
+  border: ridge;
+  /* position: absolute; */
+  height: 50px ;
+  width: 50px;
+}
+#e{
+    border: 2px solid green;
+  font-size: 50px; 
+}
+#para{
+position: relative;top: 250px;
+  left: 500px;
+  margin: 50px;
+}

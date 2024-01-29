@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time in JS</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: antiquewhite;
+            /* text-align: center; */
+            /* height: 50%; */
+            font-size: 25px;
+            /* width: 200px;     */
+            padding: 20px;
+            margin: 4px;
+            text-align: center;
+        }
+        #time{
+font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">this is a container
+        current time is <span id="time"></span>
+    </div>
+</body>
+<script>
+    console.log("this is a java date and time tutorial")
+    let date=new Date();
+    console.log(date);
+    let dt=new Date(0);
+    console.log(dt);
+    let d=new Date(3020,4,5,8,7);
+    console.log(d);
+    let yr=d.getFullYear();
+    console.log(yr);
+    let de=d.getMonth();
+    console.log(de);
+    let DA=d.getMinutes();
+    console.log(DA);
+    let hr=d.getHours();
+    console.log(hr);
+    setInterval(updatetime,1000);
+    function updatetime(){
+        time.innerHTML =new Date();
+    }
+</script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After psuedo selectors</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            background-image: url('https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg');
+        }
+        section{
+            color: black;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid red;
+            justify-content: center;
+            /* to do content on centre we can also use justified-content */
+            
+        }
+        .sengar{
+            display: flex;
+            font-size: 25px;
+        }
+        li{
+            list-style: none;
+            padding: 34px 23px;
+        }
+        /* section::before{
+            content:' this is a content';
+        } */
+        section::after{
+            content:' this is a content';
+        }
+        #luckey{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>    
+        <nav class="contaier">
+            <ul type="square"  class="sengar">
+                <li class="item">home</li>
+                <li class="item">about</li>
+                <li class="item">service</li>
+                <li class="item">contact us</li>
+            </ul>
+        </nav>
+        <section>
+            <h3 id="luckey">welcome to coading world</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus omnis, impedit delectus ducimus iusto optio ad in pariatur repudiandae, facere sed. Assumenda laborum consequatur numquam quos sint animi odio deleniti, tempora optio.</p>
+        </section>
+    </header>
+</body>
+</html>

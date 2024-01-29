@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+    <style>
+    *{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+    }
+        .container{
+            border: 8px solid wheat;
+            border-top: 8px solid black;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            background-color: transparent;
+          position: relative;
+          left: 600px;
+          top: 250px;
+        animation: circle;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        /* animation-direction:forw; */
+        /* animation-timing-function: ease-in-out; */
+
+        }
+        @keyframes circle {
+          
+            100%{
+                rotate: 360deg;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>

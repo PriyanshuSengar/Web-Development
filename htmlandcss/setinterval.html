@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settimeout and clear time out</title>
+</head>
+<body>
+    <div class="container">
+        time  now is <span id="time"></span>
+    </div>
+</body>
+
+<script>
+    console.log("this is a tutorial")
+    // setTimeout=it allow us to repeat the function once after a particular interval of time
+    // clearTimeout=it allow us to repeat the function repetedly after a particular interval of time
+    function greet(name,byetext){
+        console.log("hello good morning"+" "+name+" "+byetext)
+    }
+  timeout=setTimeout(greet, 5000,  "luckey","take care");
+//   console.log(timeout);
+  clearTimeout(timeout);
+//   setTimeout(greet(), 5000,  "luckey","take care");we can not call the function inside the settimeout
+// luckey=setInterval(greet,1000, "luckey","good boy");
+// clearInterval(luckey);
+function sengar(){
+    time=new Date();
+    console.log(time);
+    document.getElementById('time');
+}
+setInterval(sengar, 1000);
+</script>
+</html>

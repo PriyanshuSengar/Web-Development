@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manupulating DOM model</title>
+</head>
+<body> 
+    <div id="main" class="conatiner">
+        <ul id="nav">
+            <li>Home</li>
+            <li>Contact Us</li>
+            <li>Address</li>
+            <li>Name</li>
+            <li>Services</li>
+            <div id="luckey">
+                <div id="sengar">hello<li id="priyanshu">india</li></div>
+            </div>
+        </ul>
+    </div> 
+    <script>
+            let main= document.getElementById('main');
+            console.log(main);
+            let nav =document.getElementById('nav')
+            console.log(nav);
+            let priyanshu=document.getElementById('priyanshu')
+            console.log(priyanshu);
+            let luckey=document.getElementById('luckey')
+            console.log(luckey);
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid red;
+            height: 150px;
+            display: inline-block;
+            margin:8px ;
+            width: 150px;
+            
+        }
+#box3{
+    /* position: absolute;
+    /* in it position will be according to the parent */
+    /* left: 15px;
+    top: 100px;  */
+    /* position: fixed; */
+    /* bottom is also used */
+    position: sticky;
+    top: 50px;
+    /* we use stickey to move the content while scrolling down the window */
+    /* right:  1200px; */
+}
+#box4{
+    position: relative;
+    /* in it position will according to it */
+    left: 15px;
+    top: 100px;
+}
+.luckey{
+    border: 20px solid yellow;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    height: 5000px;
+}
+    </style>
+</head>
+<body>
+    <div class="luckey">
+    <div class="box" id="box1">1 </div>
+    <div class="box" id="box2"> 2</div>
+    <div class="box" id="box3"> lukcey sengar</div>
+    <div class="box" id="box4">4 </div>
+
+    </div>
+</body>
+</html>

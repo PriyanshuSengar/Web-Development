@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS trnasforms</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container {
+            height: 100vh;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: brown;
+            border: 2px solid black;
+            border-radius: 5px;
+            height: 400px;
+            width: 400px;
+            transition: all 1s ease-in-out;
+        }
+        .box:hover{
+            transform: skew(45deg);
+            transform: rotate(360deg);
+            transform: scale(1.5);
+            transform: translatex(50px);
+            transform: translatey(50px);
+            border: 2px solid yellow;
+            transform: translate(123px , 133px);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">this is luckey sengar .</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and text showdaw</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .content{
+            padding: 23px 12px;
+            /* border: 2px solid red; */
+            margin: 5px;
+            background-color: greenyellow;
+            /* box-shadow: -10px -12px red; for upper shadow we use negative numbers  */
+            box-shadow: 10px 12px 2px red;
+            /* box-shadow: x y color ;
+            box-shadow: x y blur color ;
+            box-shadow: x y blur spread color ;*/
+            text-shadow: 2px 2px blue;
+        } 
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content" id="sengar1"><h2>card1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, necessitatibus</p>
+        </div>
+        <div class="content" id="sengar2"> <h2>card2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, corporis.
+        </p></div>
+        <div class="content" id="sengar3"> <h2>card3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, iste.</p></div>
+    </div>
+</body>
+</html>

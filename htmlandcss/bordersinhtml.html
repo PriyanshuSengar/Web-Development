@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,width,borders and background</title>
+    <style>
+        #luckey{
+            background-color: red   ;
+            
+            height: 100px;
+            width: 450px;
+            border-width: 5px;
+            border-color: blue;
+            border-style: solid;
+            border-radius: 5px;
+            /* to make corners round borderradius is used */
+        }
+        #Sengar{
+            background-color: red   ;
+            
+            height: 100px;
+            width: 450px;
+            border-top: 5px solid green;
+            border-left: 7px solid yellow;
+            border-right: 9px solid grey;
+            border-bottom: 12px solid pink;
+            border-top-right-radius: 55px;
+            border-top-left-radius: 5px;
+            /* border-color: blue;
+            border-style: solid;
+            border-radius: 5px; */
+             
+        }
+        #gclass{
+            background-image: url('https://www.motortrend.com/uploads/2022/02/2022-Mercedes-Benz-G-Class-AMG-G63-22.jpg');
+            height: 1000px;
+            width: 6000px;
+            border: 5px solid blue;
+            background-repeat: repeatx;
+             /* only the images which are on x axis will be repeted  */
+             /* background-repeat: no repeat ; if no repeat is written then image with repeat again  */
+             background-position: centre;
+             /* centre top  */
+             /* centre left ,  right, bottom */
+             /* background-position: 12px top ; */
+        }
+    </style>
+</head>
+<body>
+    <h2>this is a heading</h2>
+  <p id="luckey">this is a paragraph</p>   
+    <h2>this is a heading</h2>
+  <p id="Sengar">this is second paragraph</p>   
+    <h2>this is a heading</h2>
+  <p id="gclass">this is third paragraph</p>   
+</body>
+</html>
