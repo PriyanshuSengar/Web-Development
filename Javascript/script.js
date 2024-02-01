@@ -6,3 +6,6 @@ console.log("luckey");
 console.log(26);
 let firstname="luckey"
 console.log(firstname);
+let jonas="luckey";
+let $luckey=24;
+
