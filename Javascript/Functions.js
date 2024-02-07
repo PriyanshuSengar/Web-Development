@@ -18,4 +18,4 @@ console.log(applejuice);
 const fruit = FruitProcessor(8, 5);
 console.log(applejuice);
 const num = Number('21');
-console.log(typeof num);  
+console.log(typeof num);
