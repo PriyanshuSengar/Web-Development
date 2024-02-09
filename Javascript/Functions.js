@@ -12,7 +12,7 @@ function FruitProcessor(apple, orange) {
     return juice;
 }
 FruitProcessor(5,0);
-const applejuice = FruitProcessor(5, 0);
+const applejuice = FruitProcessor(5, 7);
 console.log(applejuice);
 // console.log(FruitProcessor(5, 0));
 const fruit = FruitProcessor(8, 5);
