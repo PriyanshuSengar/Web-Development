@@ -7,6 +7,7 @@ const age1 = calAge1(1358);
 const calAge2 = function (BirthYeah) {
     return 2037 - BirthYeah;
 }
+
 const age2 = calAge2(1597);
 console.log(age1);
 console.log(age1, age2);
